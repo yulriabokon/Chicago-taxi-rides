@@ -112,11 +112,3 @@ My insights:
 
  
 
-
-
-WHERE payment_type='Cash'
-GROUP BY hour_of_day,payment_type,tips
-ORDER BY tips DESC
-
-GROUP BY hour_of_day,payment_type,tips
-ORDER BY tips DESC
